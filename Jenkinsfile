@@ -11,7 +11,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-token',
-                    url: 'https://github.com/ilovejwoo1004-bit/ai-model-cicd-practice.git'
+                    url: 'https://github.com/seojin048/docker.git'
             }
         }
 
